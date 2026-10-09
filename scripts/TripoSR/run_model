@@ -1,0 +1,5 @@
+python run.py examples/apple.png \
+    --pretrained-model-name-or-path ./training_runs/triposr_baseline/step_0001000 \
+    --output-dir ./output/apple \
+    --model-save-format glb \
+    --render

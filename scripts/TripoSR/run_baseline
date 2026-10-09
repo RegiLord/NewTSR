@@ -1,0 +1,12 @@
+python train_triposr_baseline.py \
+    --dataset-root ../objaverse-xl/datasets/objaverse_pilot \
+    --config config.yaml \
+    --steps 10000 \
+    --batch-size 1 \
+    --supervision-views 1 \
+    --init-checkpoint stabilityai/TripoSR \
+    --amp \
+    --gradient-checkpointing \
+    --renderer-chunk-size 1024 \
+    --cpu-offload-saved-tensors \
+    --ray-chunk-size 64

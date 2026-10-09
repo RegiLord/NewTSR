@@ -1,0 +1,24 @@
+# Models and datasets (at any directory level)
+models/
+datasets/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Python environments
+.env
+.venv/
+venv/
+env/
+
+# IDE files
+.idea/
+
+# Training outputs
+runs/
+checkpoints/
+outputs/
+
+# Temporary files
+*.log

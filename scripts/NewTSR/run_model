@@ -1,0 +1,5 @@
+python test.py apple.png \
+    --pretrained-model-name-or-path /home/leusteanstefan/Documents/Practica/models/NewTSR/start \
+    --output-dir ./output/apple \
+    --model-save-format glb \
+    --render
